@@ -4,15 +4,21 @@ serverless raffle project
 
 ----------------------------------------------
 
-1- create DynmoDB table 
+Just finished building a Serverless Raffle Project!
 
-2- create lambda function
+This lab was all about combining AWS Lambda + DynamoDB to create a fully serverless raffle system 🎲
 
-Iam Role (Access DynmoDB "full access,execution rule,lambdainvo,logs" ,
-          Create logs on Cloud Watch)
+Here’s what I did:
+1️⃣ Created a DynamoDB table to store all participants.
+2️⃣ Built a Lambda function with an IAM Role (full DynamoDB access + CloudWatch logging).
+3️⃣ The function can:
 
-- apply (take item and put in DynamoDB table)
-- get items count 
-- choose 3 random items whose winners
+Take new participants and store them in DynamoDB 🗃️
 
+Get the total number of entries 🔢
 
+Randomly choose 3 lucky winners 🎉
+
+It’s amazing how powerful and clean the Serverless architecture feels — no servers, just pure logic in the cloud ☁️💪
+
+#AWS #Serverless #CloudComputing #DynamoDB #Lambda #CloudWatch #DevOpsJourney #ZizoInTheCloud
